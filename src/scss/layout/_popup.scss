@@ -1,0 +1,92 @@
+// popup styles
+$primary-color: #fcaf32;
+$secondary-color: #fc888e;
+
+html,
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.popup {
+  position: relative;
+  padding: 8px;
+}
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.container-form {
+  background-color: white;
+  padding: 32px;
+  border-radius: 2px;
+}
+#popup-form {
+  display: none;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  border: 1px solid black;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 2px;
+}
+.check-button {
+  display: flex;
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+.check {
+  display: none;
+}
+.check-button-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 2px 2px 2px;
+}
+.login-text {
+  font-family: Lobster;
+  font-size: 20px;
+  color: black;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.terms-text {
+  font-size: 14px;
+  color: grey;
+  margin-left: 8px;
+  text-align: center;
+  line-height: 16px;
+}
+.submit-button {
+  background-color: black;
+  margin-top: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.submit-button-text {
+  color: white;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+}

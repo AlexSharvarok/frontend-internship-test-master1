@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lobster&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <title>Virtua Frontend Internship Test</title>
+  </head>
+  <body>
+    <section class="main">
+      <button id="show-popup-form" onclick="onShowFormClick()" class="btn btn-main">Click me!</button>
+      <button id="success-message"  onclick="onCloseClick()" class="btn btn-main">Thank you!</button>
+      <div class="popup" id="popup-form">
+        <div class="close-button" onclick="onCloseClick()">
+          <img src="images/close.png" width="12px" height="12px" alt="close"/>
+        </div>
+        <form class="container-form">
+            <div class="login-text">Login</div>
+            <div class="inputs">
+              <input class="input" id="email-input" placeholder="Email"/>
+              <input class="input" id="password-input"  placeholder="Password" onchange=""/>
+            </div>
+            <div class="check-button-container">
+              <div class="check-button" onclick="onCheckBoxClick()">
+                <div class="check" id="check">
+                  <img src="images/checkmark.png" width="12px" height="12px" alt="checkmark"/></div>
+              </div>
+              <div  class="terms-text">I agree to terms & conditions.
+              </div>
+            </div>
+            <div class="submit-button" id="submit-button" onclick="onSubmitClick()"><div class="submit-button-text">
+              SUBMIT
+            </div></div>
+        </form>
+      </div>
+    </section>
+   
+    <script src="js/index.min.js" charset="utf-8"></script>
+  </body>
+</html>
